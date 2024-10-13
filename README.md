@@ -72,10 +72,13 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6918DA9FE89C484E8FE1DCE98899ECC4 }}
           package: .
 ```
+Note: Replace nextjs-appservice-demo with your specific App Service name and ensure that the AZUREAPPSERVICE_PUBLISHPROFILE is set in your GitHub repository secrets.
+
+
 
 ## next.config.mjs
 
-```json
+```ts
 const nextConfig = {
     reactStrictMode: true,
     distDir: 'build',
