@@ -2,12 +2,16 @@
 
 This sample project explains how to deploy a Next.js application to Azure App Service using GitHub Actions for continuous integration and deployment.
 
+## Hire Us
+Contact Email - contact@evotechcraft.com
+
+## Free Support
+For any questions or issues, please contact support at 
+Support mail: support@evotechcraft.com
 
 ## Deploying the Next.js Application
 
 Clone the this Repository and follow below steps.
-
-
 
 ## Github action file
 
@@ -72,7 +76,7 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6918DA9FE89C484E8FE1DCE98899ECC4 }}
           package: .
 ```
-Note: Replace nextjs-appservice-demo with your specific App Service name and ensure that the AZUREAPPSERVICE_PUBLISHPROFILE is set in your GitHub repository secrets.
+Note: Replace `nextjs-appservice-demo` with your specific App Service name and ensure that the `AZUREAPPSERVICE_PUBLISHPROFILE` is set in your GitHub repository secrets.
 
 
 
@@ -99,5 +103,10 @@ node server.js
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
+## Issues
 
-This README provides a comprehensive guide to deploying a Next.js application on Azure App Service. Adjust any placeholders and commands to fit your specific application and Azure setup.
+If you will face any issues with the usage of this package please raise one so that we can quickly fix it as soon as possible.
+
+## Contributing
+
+This is an open-source project under ```MIT License``` so anyone is welcome to contribute from typos, to source code to documentation.
